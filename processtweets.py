@@ -5,7 +5,14 @@ import re
 
 
 """
-Process All Tweets and generate summaries
+gettweets.py:
+Author: S. G. Sangameswara
+Contact: sgsangam@gmail.com
+Created for: Coursera Data Science Coursolve Project
+Uasge: python27\python 'processtweets.py' 'serach_terms.txt',
+       where serach_terms is any file containg serach keywords
+       processed in gettweets.py program available in
+       'DaData' folder.
 """
 
 # global counter variabls

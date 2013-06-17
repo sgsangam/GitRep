@@ -2,6 +2,15 @@ import oauth2 as oauth
 import urllib2 as urllib
 import json
 
+"""
+gettweets.py:
+Author: S. G. Sangameswara
+Contact: sgsangam@gmail.com
+Created for: Coursera Data Science Coursolve Project
+Uasge: python27\python 'gettweets.py' 'serach_terms.txt',
+       where serach_terms is any file containg serach keywords, one perline
+       Make sure to create 'DaData' folder whre results files will be created.
+"""
 
 # See Assignment 1 instructions or README for how to get these credentials
 access_token_key = "28579396-UFCJTFjfG0hzAPTao0YnGXB5Mymrhi0DxMlaPR5W4"
@@ -125,7 +134,6 @@ def fetchtweets():
   f_terms.close() # we are done
   print "We are done for now\n"
  
-  
 
 if __name__ == '__main__':
   fetchtweets()
