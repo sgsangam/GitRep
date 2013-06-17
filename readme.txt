@@ -1,6 +1,6 @@
 -- This Repository contains files for Cousolve project
 - gettweets.py - implements python program to get tweets using twitter API. You need to create Twitter oAuth for accessing Twitter API
-- It uses terms from 'serach_terms.txt. Creates output in DSData folder.
+- It uses terms from 'search_terms.txt. Creates output in DSData folder.
 -- process tweets process files in DSData and creates summary info.
 -- search_termss.txt contains search terms examples
 -- coursolv_06162013 has sample output for these search terms
